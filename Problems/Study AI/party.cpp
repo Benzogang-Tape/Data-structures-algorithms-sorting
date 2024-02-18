@@ -4,8 +4,8 @@
 
 unsigned FindMinAmountOfGroups(std::vector<int> &managers) {
 	unsigned currentDepth{}, maxDepth = 1;
-	for (unsigned i{}; i < managers.size(); ++i) {
-		int counter = i;
+	for (unsigned i = 1; i < managers.size(); ++i) {
+		int counter = static_cast<int>(i);
 		do {
 			currentDepth++;
 			counter = managers[counter];
@@ -22,8 +22,8 @@ unsigned FindMinAmountOfGroups(std::vector<int> &managers) {
 int main() {
 	unsigned n{};
 	std::cin >> n;
-	std::vector<int> managers(n);
-	for (unsigned i{}; i < n; ++i) {
+	std::vector<int> managers(n + 1);
+	for (unsigned i = 1; i < n + 1; ++i) {
 		std::cin >> managers[i];
 	}
 	std::cout << FindMinAmountOfGroups(managers);
