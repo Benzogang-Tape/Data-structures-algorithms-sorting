@@ -1,1 +1,8 @@
+add_executable(1.2.1 1.2.1.cpp)
+add_executable(1.2.2 1.2.2.cpp)
+add_executable(1.3.1 1.3.1.cpp)
+add_executable(1.4.1 1.4.1.cpp)
+add_executable(1.4.2 1.4.2.cpp)
+add_executable(module1_test module1_test.cpp)
+add_executable(2.1.1 2.1.1.cpp)
 add_executable(2.1.2 2.1.2.cpp)

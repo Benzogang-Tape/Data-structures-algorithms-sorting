@@ -1,1 +1,5 @@
+add_executable(meeting_of_friends meeting_of_friends.cpp)
+add_executable(string_conversion string_conversion.cpp) #Not Solved yet
+add_executable(another_one_game_with_the_string another_one_game_with_the_string.cpp)
+add_executable(berland_parliament berland_parliament.cpp)
 add_executable(party party.cpp)
