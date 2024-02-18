@@ -1,0 +1,1 @@
+add_executable(party party.cpp)
